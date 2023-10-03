@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useReducer } from "react";
 import { AppContainer } from "./styles";
+import { Card } from "./Card";
 import { Column } from "./Column";
 import { AddNewItem } from "./AddNewItem";
 import { useAppState } from "./AppStateContext";
